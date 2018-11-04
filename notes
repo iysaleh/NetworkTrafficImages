@@ -1,0 +1,2 @@
+tcpdump -B 524288 -tttt -s 0 -vvv -i em1 "dst host 10.1.1.17 or src host 10.1.1.17" > hon_raw_captureX.cap
+echo `date +"%Y-%M-%d %H:%M:%S.%s"` >> hon_raw_captureX.date
