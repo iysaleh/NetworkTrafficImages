@@ -106,3 +106,4 @@ venv.bak/
 #Capture Files
 captures/
 captures_split/
+captures_networkTrafficImages/
