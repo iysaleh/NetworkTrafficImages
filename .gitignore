@@ -109,3 +109,5 @@ captures_split/
 captures_networkTrafficImages/
 capturesBak/
 backups/
+captures_selected/
+captures_selected_test/
