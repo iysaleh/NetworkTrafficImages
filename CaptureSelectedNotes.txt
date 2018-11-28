@@ -1,0 +1,30 @@
+Need 0-day application -- dota
+
+#connection_index,src_host:src_port,dst_host:dst_port,proto,packet_flow_total_bytes_transferred,packet_flow_duration,total_packets
+##Completed connections.map
+steam_raw_capture1
+steam_raw_capture2
+csgo_raw_capture1
+csgo_raw_capture2
+**********
+csgo_raw_capture4
+hon_raw_capture1
+hon_raw_capture2
+hon_raw_capture3
+hon_raw_capture4
+hon_raw_capture5
+hon_raw_capture6
+hon_raw_capture7
+hon_raw_capture8
+hon_raw_capture9
+hon_raw_capture10
+hon_raw_capture11
+hon_raw_capture12
+hon_raw_capture13
+hon_raw_capture14
+hon_raw_capture15
+hon_raw_capture16
+hon_raw_capture17
+hon_raw_capture18--doesn't exist
+hon_raw_capture19
+hon_raw_capture20
