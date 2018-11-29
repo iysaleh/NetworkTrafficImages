@@ -543,7 +543,7 @@ def generate_time_relative_ntis(packet_list,nti_x,nti_y,output_dir,base_filename
     nti_interval = nti_duration / nti_area
     nti_ending_time = nti_start_time + nti_duration
         
-    if(len(packet_list)>nti_area):
+    if(nti_ending_time <= packet_list[len(packet_list)-1].packet_time):
         create_directory(output_dir)
     
     nti_array = create_empty_2d_array(nti_x,nti_y)
