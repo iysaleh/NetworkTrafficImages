@@ -587,7 +587,7 @@ def generate_time_relative_ntis(packet_list,nti_x,nti_y,output_dir,base_filename
 
 
 try:
-	capture_dst = "captures_NTIs_Linear_1Second_17x17"
+	capture_dst = "captures_NTIs_Linear_17x17"
 	for x in os.walk(capture_src): #each os.walk element is: dirpath, subdir-names, dir-filenames
 		outdir = x[0].replace(capture_src,capture_dst)
 		try:
@@ -626,7 +626,7 @@ try:
 				#generate_time_relative_ntis(packets,5,5,output_dir,base_file,nti_packet_arrangement='center_spiral',nti_time_range_ms=25000)
 				
 				#raise KeyboardInterrupt
-				generate_time_relative_ntis(packets,17,17,output_dir,base_file,nti_packet_arrangement='linear',nti_time_range_ms=1000,max_number_ntis_per_file=20000)
+				generate_ntis(packets,17,17,output_dir,base_file,nti_packet_arrangement='linear',max_number_ntis_per_file=20000)
 	print("Job Done!")						
 except KeyboardInterrupt:
 	print("Execution Stopped due to KeyboardInterrupt")

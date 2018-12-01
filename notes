@@ -1,2 +1,24 @@
 tcpdump -B 524288 -tttt -s 0 -vvv -i em1 "dst host 10.1.1.17 or src host 10.1.1.17" > hon_raw_captureX.cap
 echo `date +"%Y-%M-%d %H:%M:%S.%s"` >> hon_raw_captureX.date
+
+###Train/Test/0Day split for PacketBased 
+BulkDownload: 
+battlenet - 0day
+origin_raw_capture2.127 - Test
+
+Games:
+dota2 - 0day
+csgo_raw_capture2 - test
+hon_raw_capture3 - test
+
+Streams:
+youtube - 0day
+twitch_raw_capture4.58 - test
+
+Torrents:
+NO 0DAY
+torrents_raw_capture2 - test
+
+Video Conferencing:
+joinme - 0day
+webex_raw_capture3 - test
